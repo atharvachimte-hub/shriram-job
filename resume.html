@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume Upload • ShriRam Digital AI Job Hunter</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.png" alt="Logo" class="brand-logo" />
+        <div>
+          <h1>ShriRam Digital AI Job Hunter</h1>
+          <p>Built by ShriRam Digital</p>
+        </div>
+      </a>
+
+      <nav class="nav" id="dynamicNav"></nav>
+    </header>
+
+    <main class="container">
+      <section class="section-block">
+        <div class="section-head">
+          <h2>Resume Upload</h2>
+          <p>Demo upload UI for future AI matching module</p>
+        </div>
+
+        <div class="card form-card">
+          <form id="resumeForm">
+            <label>Upload Resume</label>
+            <input type="file" id="resumeFile" accept=".pdf,.doc,.docx" />
+
+            <label>Preferred Role</label>
+            <input type="text" id="preferredRole" placeholder="Finance Analyst / Billing Analyst" />
+
+            <label>Key Skills</label>
+            <textarea id="skillsBox" rows="5" placeholder="Excel, SAP Billing, Reporting, Finance Operations"></textarea>
+
+            <button type="submit" class="btn btn-primary">Save Resume Info</button>
+          </form>
+
+          <div id="resumeStatus" class="success-box hidden">
+            Resume details saved successfully in demo mode.
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

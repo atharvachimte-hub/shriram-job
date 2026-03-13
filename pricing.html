@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing • ShriRam Digital AI Job Hunter</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.png" alt="Logo" class="brand-logo" />
+        <div>
+          <h1>ShriRam Digital AI Job Hunter</h1>
+          <p>Built by ShriRam Digital</p>
+        </div>
+      </a>
+
+      <nav class="nav" id="dynamicNav"></nav>
+    </header>
+
+    <main class="container">
+      <section class="section-block">
+        <div class="section-head">
+          <h2>Monthly Support Plan</h2>
+          <p>Simple startup pricing</p>
+        </div>
+
+        <div class="pricing-wrap">
+          <div class="pricing-card featured">
+            <span class="badge">Best Starter Plan</span>
+            <h3>Monthly Support</h3>
+            <div class="price big-price">₹499<span>/month</span></div>
+
+            <ul class="clean-list">
+              <li>Access to jobs dashboard</li>
+              <li>Walk-in section</li>
+              <li>Resume upload page</li>
+              <li>Startup SaaS support model</li>
+            </ul>
+
+            <div class="qr-box">
+              <p class="qr-title">Scan QR to Subscribe</p>
+              <img src="assets/qr.jpg" alt="UPI QR Code" style="width:220px; max-width:100%; border-radius:18px; display:block; margin:0 auto 12px;">
+              <p class="upi-text">UPI ID: atharvachimte-3@okicici</p>
+            </div>
+
+            <div class="payment-note">
+              After payment, send screenshot on WhatsApp for manual activation.
+            </div>
+
+            <a
+              href="https://wa.me/919860726613?text=Hi%20ShriRam%20Digital%2C%20I%20have%20paid%20for%20AI%20Job%20Hunter%20Monthly%20Support.%20Please%20check%20my%20payment%20and%20activate%20my%20access."
+              target="_blank"
+              class="btn btn-secondary full"
+              style="margin-bottom:16px;"
+            >
+              Send Payment on WhatsApp
+            </a>
+
+            <form class="payment-form">
+              <label>Your Name</label>
+              <input type="text" placeholder="Enter your name" />
+
+              <label>Email</label>
+              <input type="email" placeholder="Enter your email" />
+
+              <label>Upload Payment Screenshot</label>
+              <input type="file" />
+
+              <button type="button" class="btn btn-primary full" onclick="showPaymentMessage()">Submit Payment</button>
+            </form>
+
+            <div id="paymentSuccess" class="success-box hidden">
+              Payment request submitted. Admin verification required before activation.
+            </div>
+          </div>
+        </div>
+
+        <section class="section-block dark-panel">
+          <p class="founder-line">ShriRam Digital AI Job Hunter • Built by ShriRam Digital</p>
+          <p class="founder-line">Founder Atharva Chimte • 9860726613</p>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
